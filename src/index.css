@@ -5,3 +5,7 @@
 .rounded-blob {
   border-radius: 64% 36% 43% 57% / 74% 23% 77% 26%;
 }
+
+.rounded-blob-2 {
+  border-radius: 40% 60% 34% 66% / 45% 33% 67% 55%;
+}
