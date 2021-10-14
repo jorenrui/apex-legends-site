@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rounded-blob {
+  border-radius: 64% 36% 43% 57% / 74% 23% 77% 26%;
+}
