@@ -16,7 +16,7 @@ function App() {
       <div className="-z-1" aria-hidden="true">
         <div className="h-screen w-screen bg-dirt opacity-50 scale-x-[-1]" />
         <img alt="Apex Legends Logo" src="./assets/img/logo.png" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-1/2" />
-        <img alt="Bloodhound" src="./assets/img/bloodhound.png" className="absolute -bottom-1/3 left-1/2 -translate-x-1/2 w-[480px]" />
+        <img alt="Bloodhound" src="./assets/img/characters/bloodhound.png" className="absolute -bottom-1/3 left-1/2 -translate-x-1/2 w-[480px]" />
       </div>
     </div>
   )
