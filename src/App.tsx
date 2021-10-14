@@ -2,6 +2,7 @@ import { Nav } from './components/Nav';
 import { LeftNav } from './components/LeftNav';
 import { NextCharacter } from './components/NextCharacter';
 import { Character } from './components/Character';
+import { Skills } from './components/Skills';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <LeftNav />
       <NextCharacter />
       <Character />
+      <Skills />
 
       <div className="-z-1" aria-hidden="true">
         <div className="h-screen w-screen bg-dirt opacity-50 scale-x-[-1]" />
