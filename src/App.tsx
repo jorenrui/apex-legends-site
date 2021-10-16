@@ -14,8 +14,8 @@ function App() {
         <img alt="Apex Legends Logo" src="./assets/img/logo.png" className="absolute h-1/3 top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/3 md:h-1/2" />
 
         <LeftNav />
-        <NextCharacter />
         <Character />
+        <NextCharacter />
         <Skills />
       </main>
     </div>
