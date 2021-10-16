@@ -2,7 +2,7 @@ import { SearchIcon } from '@heroicons/react/outline';
 
 export function Nav() {
   return (
-    <nav className="z-10 p-8 bg-transparent flex items-center justify-between text-base font-medium text-gray-900">
+    <nav className="z-20 p-8 bg-transparent flex items-center justify-between text-base font-medium text-gray-900">
       <img src="./assets/img/favicon.svg" className="h-14 w-14" />
       <ul className="list-none flex items-center gap-x-32">
         <li>
