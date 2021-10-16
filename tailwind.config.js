@@ -6,7 +6,10 @@ module.exports = {
     extend: {
       backgroundImage: {
        dirt: 'url("/assets/img/dirt.png")'
-      }
+      },
+      screens: {
+        md: '1156px',
+      },
     },
   },
   variants: {
