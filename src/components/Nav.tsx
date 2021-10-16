@@ -26,7 +26,7 @@ export function Nav() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="z-20 px-8 py-2 flex items-center justify-between text-base font-medium text-gray-900 md:p-8">
+          <div className="px-8 py-2 flex items-center justify-between text-base font-medium text-gray-900 md:p-8">
             <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white md:hidden">
               <span className="sr-only">Open main menu</span>
               {open ? (
@@ -61,10 +61,10 @@ export function Nav() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="block md:hidden">
             <ul className="py-2 px-8 space-y-1">
               {NAVIGATION.map((item) => (
-                <li>
+                <li key={item.text}>
                   <a
                     href={item.link}
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-900 hover:text-white "
