@@ -1,5 +1,7 @@
 # Apex Legends Site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/baada63c-d68f-4684-a9ad-2b3702181ee5/deploy-status)](https://app.netlify.com/sites/apex-legends-site/deploys)
+
 Got bored and suddenly decided to whip up this website one night. So yeah this is just me having fun doing whatever. It is made with ViteJS, ReactJS and TailwindCSS.
 
 ![Screenshot of the apex legends site which features the legend bloodhound](./public/assets/img/apex-legends-site.png)
